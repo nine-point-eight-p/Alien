@@ -1,0 +1,15 @@
+[package]
+name = "harness"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+Mstd = { path = "../../userlib" }
+libafl_qemu_cmd = { git = "https://github.com/nine-point-eight-p/libafl_qemu_cmd" }
+syscall2struct-helpers = { path = "/home/patrickli/program/fuzzing/syscall2struct/syscall2struct-helpers" }
+syscall2struct-derive = { path = "/home/patrickli/program/fuzzing/syscall2struct/syscall2struct-derive" }
+postcard = "1.0.8"
+uuid = { version = "1.10.0", default-features = false, features = ["serde"] }
+heapless = { version = "0.8.0", features = ["serde"] }
+serde = { version = "1.0.207", default-features = false }
+syscalls = { version = "0.6.18", default-features = false }

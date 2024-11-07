@@ -21,7 +21,8 @@ build:
 
 BUILD_CRATES := \
 	init \
-	run_test \
+	harness \
+#   run_test \
 	tests \
 	sleep \
 	socket_test \

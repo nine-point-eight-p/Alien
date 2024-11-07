@@ -91,7 +91,7 @@ define boot_qemu
         -drive file=$(IMG),if=none,format=raw,id=x0 \
         -device virtio-blk-device,drive=x0 \
         -kernel  kernel-qemu\
-        -$(QEMU_ARGS) \
+        $(QEMU_ARGS) \
         -smp $(SMP) -m $(MEMORY_SIZE) \
         -serial mon:stdio
 endef

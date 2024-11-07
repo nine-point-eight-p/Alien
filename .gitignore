@@ -23,6 +23,7 @@ tools/fs1.img
 run.log
 nohup.out
 *.img
+/diskfs
 
 alien-*
 alien.bin
