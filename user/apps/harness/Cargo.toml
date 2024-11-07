@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 Mstd = { path = "../../userlib" }
-libafl_qemu_cmd = { git = "https://github.com/nine-point-eight-p/libafl_qemu_cmd" }
+libafl_qemu_cmd = { git = "https://github.com/nine-point-eight-p/libafl_qemu_cmd", features = ["nightly"] }
 syscall2struct-helpers = { git = "https://github.com/nine-point-eight-p/syscall2struct" }
 syscall2struct-derive = { git = "https://github.com/nine-point-eight-p/syscall2struct" }
 postcard = "1.0.8"
