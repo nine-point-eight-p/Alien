@@ -3274,6 +3274,7 @@ dependencies = [
 [[package]]
 name = "syscall2struct-derive"
 version = "0.1.0"
+source = "git+https://github.com/nine-point-eight-p/syscall2struct#d5d37dc4e5192ffe47c621aabbaf25f3b40167a5"
 dependencies = [
  "proc-macro2",
  "quote 1.0.36",
@@ -3283,6 +3284,7 @@ dependencies = [
 [[package]]
 name = "syscall2struct-helpers"
 version = "0.1.0"
+source = "git+https://github.com/nine-point-eight-p/syscall2struct#d5d37dc4e5192ffe47c621aabbaf25f3b40167a5"
 dependencies = [
  "enum_index",
  "enum_index_derive",
@@ -3523,8 +3525,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "693d596312e88961bc67d7f1f97af8a70227d9f90c31bba5806eec004978d752"
 dependencies = [
  "proc-macro2",
- "quote",
- "syn 2.0.65",
+ "quote 1.0.36",
+ "syn 2.0.74",
 ]
 
 [[package]]

@@ -6,8 +6,8 @@ edition = "2021"
 [dependencies]
 Mstd = { path = "../../userlib" }
 libafl_qemu_cmd = { git = "https://github.com/nine-point-eight-p/libafl_qemu_cmd" }
-syscall2struct-helpers = { path = "/home/patrickli/program/fuzzing/syscall2struct/syscall2struct-helpers" }
-syscall2struct-derive = { path = "/home/patrickli/program/fuzzing/syscall2struct/syscall2struct-derive" }
+syscall2struct-helpers = { git = "https://github.com/nine-point-eight-p/syscall2struct" }
+syscall2struct-derive = { git = "https://github.com/nine-point-eight-p/syscall2struct" }
 postcard = "1.0.8"
 uuid = { version = "1.10.0", default-features = false, features = ["serde"] }
 heapless = { version = "0.8.0", features = ["serde"] }
